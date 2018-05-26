@@ -1,0 +1,188 @@
+html, body{
+	width: 100%;
+	margin: 0;
+	border: 0;
+	padding: 0;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+header{
+	width: 100%;
+	background-color: #F3F3F3;
+	height: 10%;
+	padding-top: 20px;
+	border-bottom: 5px solid #FE6848;
+}
+ul{
+	list-style-type: none; 
+	margin-bottom: 0;
+	margin-top: -20px; 
+}
+
+.navtitre{
+	display: inline-block;
+	padding-top: 2.5%;
+	padding-bottom: 2.5%;
+	padding-left: 2.5%;
+	padding-right: 2.5%;
+	height: auto;
+	font-size: 20px;
+}
+.navli{
+	display: inline-block;
+	padding: 4.4% 3%;
+	height: auto;
+	font-size: 20px;
+}
+.navli:hover{
+	background-color: #FE6848;
+	color: white;
+}
+section{
+	padding-top: 7%;
+	padding-bottom: 10%;
+	display: block;
+	background-size: 100%;
+	border-bottom: 5px solid #FE6848;
+}
+#playS{
+    padding-top:5%;
+    padding-bottom:13%;
+}
+footer{
+	text-align: center;
+	background-color: #FE6848;
+}
+#footer1{
+    position: absolute;
+    bottom: 0;
+    left: 0; 
+    right: 0
+}
+#section2{
+	text-align: right;
+	background-color: #EEEEEE;
+}
+#section1{
+	padding-bottom: 15%;
+	display: block;
+	background-size: 100%;
+	border-bottom: 5px solid #FE6848;
+}
+.active{
+	margin-left: 40%;
+}
+
+.button{
+	background-color: #FE6848;
+	border-radius: 25px;
+	padding: 1% 3% 1% 3%;
+	font-size:16px;
+}
+.left-1{
+	margin-left: 10%;
+}
+.right-1{
+	margin-right: 10%;
+}
+.top-1{
+	margin-top: 3%;
+}
+.bottom-1{
+	margin-bottom: 5%;
+}
+#animation{
+	display: block;
+	background-position: 0px 0px;
+	background-image: url("../img/0.png");
+	width: 201px;
+	height: 274px;
+	margin-left:80px;
+	float:left;
+}
+a{
+	text-decoration : none;
+	color : black;
+}
+table {
+	border: medium solid #FE6848;
+	border-collapse: collapse;
+	width: 50%;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+th {
+	border: thin solid #FE6848;
+	width: 50%;
+	padding: 5px;
+}
+td {
+	border: thin solid #FE6848;
+	width: 50%;
+	padding: 5px;
+	text-align: center;
+	background-color: #F3F3F3;
+}
+
+#penduprop{
+	display: none;
+}
+
+#restart{
+	display: none;
+}
+#penduMP{
+    margin-right:160px;
+    float: right;
+}
+#motatrouver{
+	display: block;
+    font-size:30px;
+	text-align: center;
+}
+#pseudoenter{
+	display: block;
+    text-align:center;
+	margin-top: 5%;
+}
+#enterpseudo{
+	display: block;
+	border:ridge;
+	display: block;
+	padding: 5px;
+	border: solid 2px;
+	border-color: #FE6848;
+	font-size: 22px;
+	text-align: center;
+	margin: 0 auto 1% auto;
+}
+#submit{
+	margin: 0 auto;
+	display: block;
+}
+#titre_classement{
+	font-size: 40px;
+	margin-bottom: 2%;
+	text-decoration: underline;
+}
+
+#restart{
+	background-color: #FE6848;
+	border-radius: 25px;
+	padding: 1% 3% 1% 3%;
+	width: 10%;
+	height: 2%;
+	font-size:16px;
+	margin-left: 50%;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	text-align: center;
+}
+#result{
+	text-align: center;
+	font-size:22px;
+	color: #FE6848;
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
