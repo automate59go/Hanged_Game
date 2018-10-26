@@ -344,16 +344,13 @@ window.addEventListener("load", function(){
         //on récupère la lettre du clavier
         letter = LettreCliqué;
         letter = letter.toLowerCase(); //on met la lettre en minuscule
-
-
-
+        trouve = false;
 
         if(verif.indexOf(letter) != -1){
             result.innerHTML = 'Veuillez choisir une autre lettre'; //message d'erreur
         }
         //si la lettre a déjà était utiliser on quitte la fonciton si le jeu est terminé -> quitte et si utilise n'a pas entrer son pseudo on quitte
         if (verif.indexOf(letter) != -1 || end || check) return;
-
 
 
         //script qui va cherche si la lettre est dans le mot
